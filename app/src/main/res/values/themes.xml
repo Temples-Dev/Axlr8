@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.Axlr8" parent="android:Theme.Material.Light.NoActionBar" />
+
+    <!--    theme for splash screen-->
+    <style name="Theme.App.SplashScreen" parent="Theme.SplashScreen">
+        <!--        background color-->
+        <item name="windowSplashScreenBackground">@color/seed</item>
+        <!--        icon-->
+        <item name="windowSplashScreenAnimatedIcon">@drawable/axlr8</item>
+        <!--        show Main parent theme-->
+        <item name="postSplashScreenTheme">@style/Theme.Axlr8</item>
+
+    </style>
+</resources>
